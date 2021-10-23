@@ -1,0 +1,35 @@
+
+.navbar-wrapper {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.wrapper-left{
+    margin-left: 20px;
+    flex:1;
+    cursor: pointer;
+    align-items: center;
+}
+.wrapper-right{
+    flex:1;
+    justify-content: space-around;
+}
+.wrapper-right div {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    color: white;
+}
+/* link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    justify-content: space-around
+}
+
+link {
+    cursor: pointer;
+    color: rgb(63, 8, 19);
+} */
